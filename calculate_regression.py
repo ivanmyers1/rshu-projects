@@ -18,7 +18,7 @@ print()
 # calculate polyfit
 coefs = np.polyfit(x, y, 1)
 p = np.poly1d(coefs)
-print("Полифит = ", p)
+print("Polyfit = ", p)
 
 # drawing
 plt.figure(figsize=(7, 5))
